@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/eran/static/css/main.7c8937e0.css",
+    "main.js": "/eran/static/js/main.d57fb6ac.js",
+    "static/js/787.6cad67f3.chunk.js": "/eran/static/js/787.6cad67f3.chunk.js",
+    "static/media/heroImg.png": "/eran/static/media/heroImg.26cecdae7819397866f4.png",
+    "static/media/books-1.png": "/eran/static/media/books-1.747e216f3e5365267c45.png",
+    "static/media/homePage_aboutUs.png": "/eran/static/media/homePage_aboutUs.fc40ca8a69a8c37d78cf.png",
+    "static/media/proiectStartSmart.jpg": "/eran/static/media/proiectStartSmart.98842256aa9187e50cf1.jpg",
+    "static/media/logo-SVG.svg": "/eran/static/media/logo-SVG.eb5c9b1b8b1e98d15afee4610bea6add.svg",
+    "index.html": "/eran/index.html",
+    "main.7c8937e0.css.map": "/eran/static/css/main.7c8937e0.css.map",
+    "main.d57fb6ac.js.map": "/eran/static/js/main.d57fb6ac.js.map",
+    "787.6cad67f3.chunk.js.map": "/eran/static/js/787.6cad67f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c8937e0.css",
+    "static/js/main.d57fb6ac.js"
+  ]
+}
