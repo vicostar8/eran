@@ -1,0 +1,169 @@
+.mobileMenu{
+    background-color: var(--primary-color);
+    position: fixed;
+    top: -100vh;
+    left: 0px;
+
+    width: 100%;
+    height: 100vh;
+
+    opacity: 0;
+    transition: all 1s ease 0s;
+}
+
+.activated{
+    transform: translateY(100vh);
+    opacity: 1;
+    z-index: 99;
+}
+
+.deactivated{
+    transform: translateY(-100vh);
+    opacity: 0;
+    z-index: -1;
+}
+
+.closeButton{
+    color: white;
+    font-size: var(--fs-48);
+    position: absolute;
+    top: var(--fs-32);
+    right: var(--fs-32);
+}
+
+.closeButton:hover{
+    cursor: pointer;
+}
+
+.mobileMenu-mainUl{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: var(--fs-24);
+    transition: all 1s ease 0s;
+}
+
+.mobileMenu-mainLi{
+    margin: var(--fs-20) 0;
+}
+
+.mobileMenu-mainLi-anchor{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.mobileMenu-mainLi-anchor:hover{
+    /* color: #809ab2; */
+    color: white;
+    cursor: pointer;
+    text-shadow: 0 0 10px white;
+}
+
+.mobileMenu-mainLi-icon{
+    font-size: var(--fs-20);
+    color: white;
+}
+
+.leftPanel{
+    transition: all 0.5s ease 0s;
+}
+
+.rightPanel{
+    left: 100vw;
+    transition: all 0.5s ease 0s;
+}
+
+.movedAside-Left{
+    transform: translateX(-100vw);
+}
+
+/* MEDIUM BREAKPOINT >= 768px */
+@media screen and (min-width: 768px){
+    .mobileMenu{
+        background-color: var(--primary-color);
+        position: fixed;
+        top: -100vh;
+        left: 0px;
+    
+        width: 100%;
+        height: 100vh;
+    
+        opacity: 0;
+        transition: all 1s ease 0s;
+    }
+    
+    .activated{
+        transform: translateY(100vh);
+        opacity: 1;
+        z-index: 99;
+    }
+    
+    .deactivated{
+        transform: translateY(-100vh);
+        opacity: 0;
+        z-index: -1;
+    }
+    
+    .closeButton{
+        color: white;
+        font-size: var(--fs-56);
+        position: absolute;
+        top: var(--fs-40);
+        right: var(--fs-40);
+    }
+    
+    .closeButton:hover{
+        cursor: pointer;
+    }
+    
+    .mobileMenu-mainUl{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: var(--fs-32);
+        transition: all 1s ease 0s;
+    }
+    
+    .mobileMenu-mainLi{
+        margin: var(--fs-24) 0;
+    }
+    
+    .mobileMenu-mainLi-anchor{
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+    }
+    
+    .mobileMenu-mainLi-anchor:hover{
+        /* color: #809ab2; */
+        color: white;
+        cursor: pointer;
+        text-shadow: 0 0 10px white;
+    }
+    
+    .mobileMenu-mainLi-icon{
+        font-size: var(--fs-24);
+        color: white;
+    }
+    
+    .leftPanel{
+        transition: all 0.5s ease 0s;
+    }
+
+    .rightPanel{
+        left: 100vw;
+        transition: all 0.5s ease 0s;
+    }
+    
+    .movedAside-Left{
+        transform: translateX(-100vw);
+    }
+}
+
+/* LARGE BREAKPOINT >= 992px */
+@media screen and (min-width: 992px){
+    .mobileMenu{
+       display: none;
+    }
+}

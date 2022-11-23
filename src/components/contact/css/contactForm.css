@@ -1,0 +1,31 @@
+.contact-formDiv{
+    width: 100%;
+    padding: var(--fs-16);
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.contact-formDiv label{
+    font-weight: var(--fw-bold);
+}
+
+.contact-formButton{
+    background-color: white;
+    color: var(--primary-color);
+    padding: var(--fs-4) var(--fs-8);
+    font-size: var(--fs-16);
+    font-weight: var(--fw-bold);
+    border: solid 2px var(--primary-color);
+    transition: all 0.5s ease 0s;
+    border-radius: 10px;
+}
+
+.contact-formButton:hover{
+    background-color: var(--primary-color);
+    color: white;
+    transform: translateX(5px) translateY(-5px);
+    box-shadow: -5px 5px 0px 0px white;
+    border: solid 2px white;
+}

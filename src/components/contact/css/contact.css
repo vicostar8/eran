@@ -1,0 +1,80 @@
+.contact-mainDiv{
+}
+
+.contact-mainDiv p{
+    color: var(--primary-color);
+    /* color: white; */
+}
+
+.contact-rightPanel{
+}
+
+.contact-header{
+    font-size: var(--fs-32);
+    font-weight: var(--fw-bold);
+}
+
+.contact-icon{
+    font-size: var(--fs-32);
+    color: var(--primary-color);
+}
+
+.contact-subtitle{
+    font-size: var(--fs-24);
+    font-weight: var(--fw-bold);
+}
+
+.contact-info{
+    font-size: var(--fs-16);
+}
+
+.contact-googleMap{
+    box-shadow: 0px 0px 5px 0px var(--primary-color);
+    width: 90%;
+    height: 300px;
+}
+
+/*  >= 576px */
+@media screen and (min-width: 576px){}
+
+/*  >= 768px */
+@media screen and (min-width: 768px){
+    .contact-mainDiv{
+    }
+    
+    .contact-mainDiv p{
+        color: var(--primary-color);
+    }
+    
+    .contact-rightPanel{
+    }
+    
+    .contact-header{
+        font-size: var(--fs-32);
+        font-weight: var(--fw-bold);
+    }
+    
+    .contact-icon{
+        font-size: var(--fs-40);
+        color: var(--primary-color);
+    }
+    
+    .contact-subtitle{
+        font-size: var(--fs-32);
+        font-weight: var(--fw-bold);
+    }
+    
+    .contact-info{
+        font-size: var(--fs-20);
+    }
+    
+    .contact-googleMap{
+        width: 90%;
+        height: 300px;
+    }
+}
+
+/*  >= 1000px */
+@media screen and (min-width: 1000px){
+    
+}

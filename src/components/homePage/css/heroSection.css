@@ -1,0 +1,348 @@
+.heroSection{
+    padding: var(--fs-12);
+}
+
+.heroLeft{
+    padding: var(--fs-16);
+    gap: var(--fs-16);
+}
+
+.heroLeft-header{
+    color: var(--primary-color);
+    font-size: var(--fs-32);
+    font-weight: var(--fw-bold);
+}
+
+.heroLeft-paragrapgh{
+    font-size: var(--fs-12);
+    font-weight: var(--fw-regular);
+    line-height: var(--fs-24);
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
+
+.heroLeft-button{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-bold);
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: var(--fs-8);
+    padding: var(--fs-8) var(--fs-16);
+    border: 2px solid var(--primary-color);
+    letter-spacing: 1px;
+
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 0px 0px 0px var(--primary-color);
+}
+
+.heroRight{
+    padding: var(--fs-16);
+}
+
+.heroRight img{
+    width: 100%;
+}
+
+/* HOVER */
+.heroLeft-button:hover{
+    transform: translateX(10px) translateY(-10px);
+    background-color: white;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    box-shadow:  -10px 10px 0px 0px var(--primary-color);
+}
+
+/* ---------------------------------------- */
+/*             >= 400px */
+/* ---------------------------------------- */
+@media screen and (min-width: 400px) {
+    .heroSection{
+        padding: var(--fs-12);
+    }
+    
+    .heroLeft{
+        padding: var(--fs-16);
+        gap: var(--fs-16);
+    }
+    
+    .heroLeft-header{
+        color: var(--primary-color);
+        font-size: var(--fs-32);
+        font-weight: var(--fw-bold);
+    }
+    
+    .heroLeft-paragrapgh{
+        font-size: var(--fs-16);
+        font-weight: var(--fw-regular);
+        line-height: var(--fs-32);
+        color: var(--primary-color);
+        letter-spacing: 1px;
+    }
+    
+    .heroLeft-button{
+        font-size: var(--fs-16);
+        font-weight: var(--fw-bold);
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: var(--fs-8);
+        padding: var(--fs-8) var(--fs-16);
+        border: 2px solid var(--primary-color);
+        letter-spacing: 1px;
+    
+        transition: all 0.3s ease 0s;
+        box-shadow: 0px 0px 0px 0px var(--primary-color);
+    }
+    
+    .heroRight{
+        /* padding: var(--fs-16); */
+    }
+    .heroRight img{
+        width: 100%;
+    }
+}
+
+/* ---------------------------------------- */
+/*             >= 576px */
+/* ---------------------------------------- */
+@media screen and (min-width: 576px) {
+    .heroSection{
+        padding: var(--fs-12);
+    }
+    
+    .heroLeft{
+        padding: var(--fs-16);
+        gap: var(--fs-16);
+    }
+    
+    .heroLeft-header{
+        color: var(--primary-color);
+        font-size: var(--fs-32);
+        font-weight: var(--fw-bold);
+    }
+    
+    .heroLeft-paragrapgh{
+        font-size: var(--fs-16);
+        font-weight: var(--fw-regular);
+        line-height: var(--fs-32);
+        color: var(--primary-color);
+        letter-spacing: 1px;
+    }
+    
+    .heroLeft-button{
+        font-size: var(--fs-16);
+        font-weight: var(--fw-bold);
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: var(--fs-8);
+        padding: var(--fs-8) var(--fs-16);
+        border: 2px solid var(--primary-color);
+        letter-spacing: 1px;
+    
+        transition: all 0.3s ease 0s;
+        box-shadow: 0px 0px 0px 0px var(--primary-color);
+    }
+    
+    .heroRight{
+        /* padding: var(--fs-16); */
+    }
+    .heroRight img{
+        width: 95%;
+    }
+}
+
+/* ---------------------------------------- */
+/*             >= 760px */
+/* ---------------------------------------- */
+@media screen and (min-width: 760px) {
+    .heroSection{
+        padding: var(--fs-16);
+    }
+    
+    .heroLeft{
+        padding: var(--fs-20);
+        gap: var(--fs-20);
+    }
+    
+    .heroLeft-header{
+        color: var(--primary-color);
+        font-size: var(--fs-40);
+        font-weight: var(--fw-bold);
+    }
+    
+    .heroLeft-paragrapgh{
+        font-size: var(--fs-16);
+        font-weight: var(--fw-regular);
+        line-height: var(--fs-32);
+        color: var(--primary-color);
+        letter-spacing: 1px;
+    }
+    
+    .heroLeft-button{
+        font-size: var(--fs-20);
+        font-weight: var(--fw-bold);
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: var(--fs-8);
+        padding: var(--fs-8) var(--fs-16);
+        border: 2px solid var(--primary-color);
+        letter-spacing: 1px;
+    
+        transition: all 0.3s ease 0s;
+        box-shadow: 0px 0px 0px 0px var(--primary-color);
+    }
+    
+    .heroRight{
+        /* padding: var(--fs-16); */
+    }
+    .heroRight img{
+        width: 80%;
+    }
+}
+
+/* ---------------------------------------- */
+/*             >= 1000px */
+/* ---------------------------------------- */
+@media screen and (min-width: 1000px) {
+    .heroSection{
+        padding: var(--fs-16);
+    }
+    
+    .heroLeft{
+        padding: var(--fs-24);
+        gap: var(--fs-24);
+    }
+    
+    .heroLeft-header{
+        color: var(--primary-color);
+        font-size: var(--fs-40);
+        font-weight: var(--fw-bold);
+    }
+    
+    .heroLeft-paragrapgh{
+        font-size: var(--fs-16);
+        font-weight: var(--fw-regular);
+        line-height: var(--fs-32);
+        color: var(--primary-color);
+        letter-spacing: 1px;
+    }
+    
+    .heroLeft-button{
+        font-size: var(--fs-20);
+        font-weight: var(--fw-bold);
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: var(--fs-8);
+        padding: var(--fs-8) var(--fs-16);
+        border: 2px solid var(--primary-color);
+        letter-spacing: 1px;
+    
+        transition: all 0.3s ease 0s;
+        box-shadow: 0px 0px 0px 0px var(--primary-color);
+    }
+    
+    .heroRight{
+        /* padding: var(--fs-16); */
+    }
+    .heroRight img{
+        width: 100%;
+    }
+}
+
+
+/* ---------------------------------------- */
+/*             >= 1200px */
+/* ---------------------------------------- */
+@media screen and (min-width: 1200px) {
+    .heroSection{
+        padding: var(--fs-16);
+    }
+    
+    .heroLeft{
+        padding: var(--fs-32);
+        gap: var(--fs-32);
+    }
+    
+    .heroLeft-header{
+        color: var(--primary-color);
+        font-size: var(--fs-40);
+        font-weight: var(--fw-bold);
+    }
+    
+    .heroLeft-paragrapgh{
+        font-size: var(--fs-16);
+        font-weight: var(--fw-regular);
+        line-height: var(--fs-32);
+        color: var(--primary-color);
+        letter-spacing: 1px;
+    }
+    
+    .heroLeft-button{
+        font-size: var(--fs-20);
+        font-weight: var(--fw-bold);
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: var(--fs-8);
+        padding: var(--fs-8) var(--fs-16);
+        border: 2px solid var(--primary-color);
+        letter-spacing: 1px;
+    
+        transition: all 0.3s ease 0s;
+        box-shadow: 0px 0px 0px 0px var(--primary-color);
+    }
+    
+    .heroRight{
+        /* padding: var(--fs-16); */
+    }
+    .heroRight img{
+        width: 100%;
+    }
+}
+
+/* ---------------------------------------- */
+/*             >= 1400px */
+/* ---------------------------------------- */
+@media screen and (min-width: 1400px) {
+    .heroSection{
+        padding: var(--fs-16);
+    }
+    
+    .heroLeft{
+        padding: var(--fs-40);
+        gap: var(--fs-40);
+    }
+    
+    .heroLeft-header{
+        color: var(--primary-color);
+        font-size: var(--fs-48);
+        font-weight: var(--fw-bold);
+    }
+    
+    .heroLeft-paragrapgh{
+        font-size: var(--fs-20);
+        font-weight: var(--fw-regular);
+        line-height: var(--fs-32);
+        color: var(--primary-color);
+        letter-spacing: 1px;
+    }
+    
+    .heroLeft-button{
+        font-size: var(--fs-24);
+        font-weight: var(--fw-bold);
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: var(--fs-8);
+        padding: var(--fs-8) var(--fs-16);
+        border: 2px solid var(--primary-color);
+        letter-spacing: 1px;
+    
+        transition: all 0.3s ease 0s;
+        box-shadow: 0px 0px 0px 0px var(--primary-color);
+    }
+    
+    .heroRight{
+        /* padding: var(--fs-16); */
+    }
+    .heroRight img{
+        width: 100%;
+    }
+}

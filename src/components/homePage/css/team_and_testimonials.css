@@ -1,0 +1,359 @@
+.team-mainDiv{
+    padding: var(--fs-24) 0;
+}
+
+.carouselIcon{
+    font-size: var(--fs-24);
+    color: white;
+    margin: 0 5px;
+
+    transition: all 0.5s ease 0s;
+}
+
+.team-header{
+    color: var(--primary-color);
+    font-size: var(--fs-32);
+    font-weight: var(--fw-bold);
+}
+
+.team-background-abs{
+    background-color: var(--primary-color);
+    position: absolute;
+    width: 200%;
+    top: calc(25%);
+    left: -50%;
+    height: 50%;
+    z-index: -1;
+}
+
+.testimonialDiv{
+    background-color: white;
+    width: 100%;
+    position: relative;
+    padding: var(--fs-16);
+    border: 4px solid var(--primary-color);
+    border-radius: 20px;
+    color: var(--primary-color);
+    margin: var(--fs-24) 0;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+.testimonialDiv-Icon{
+    font-size: var(--fs-48);
+}
+.testimonialDiv-Text{
+    font-size: var(--fs-12);
+    font-weight: var(--fw-semibold);
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.testimonialDiv-Signer{
+    font-size: var(--fs-16);
+    margin: var(--fs-8);
+}
+.testimonialDiv-Signer i{
+    font-size: var(--fs-16);
+    margin: 0 var(--fs-8);
+}
+
+/* HOVER */
+.carouselIcon:hover{
+    cursor: pointer;
+    transform: translateX(2px) scale(1.5);
+}
+
+/* >= 576px */
+@media screen and (min-width: 576px) {
+    .team-mainDiv{
+        padding: var(--fs-24) 0;
+    }
+    
+    .carouselIcon{
+        font-size: var(--fs-24);
+        color: white;
+        margin: 0 5px;
+    
+        transition: all 0.5s ease 0s;
+    }
+    
+    .team-header{
+        color: var(--primary-color);
+        font-size: var(--fs-32);
+        font-weight: var(--fw-bold);
+    }
+    
+    .team-background-abs{
+        background-color: var(--primary-color);
+        position: absolute;
+        width: 200%;
+        top: calc(25%);
+        left: -50%;
+        height: 50%;
+        z-index: -1;
+    }
+
+    .testimonialDiv{
+        background-color: white;
+        width: 100%;
+        position: relative;
+        padding: var(--fs-16);
+        border: 4px solid var(--primary-color);
+        border-radius: 20px;
+        color: var(--primary-color);
+        margin: var(--fs-24) 0;
+        box-shadow: 0px 0px 10px 0px #000000;
+    }
+    .testimonialDiv-Icon{
+        font-size: var(--fs-48);
+    }
+    .testimonialDiv-Text{
+        font-size: var(--fs-12);
+        font-weight: var(--fw-semibold);
+        font-style: italic;
+        letter-spacing: 1px;
+    }
+    .testimonialDiv-Signer{
+        font-size: var(--fs-16);
+        margin: var(--fs-8);
+    }
+    .testimonialDiv-Signer i{
+        font-size: var(--fs-16);
+        margin: 0 var(--fs-8);
+    }
+}
+
+/* >= 760px */
+@media screen and (min-width: 760px) {
+    .team-mainDiv{     
+        padding: var(--fs-32) 0; 
+    }
+    
+    .carouselIcon{
+        font-size: var(--fs-32);
+        color: white;
+        margin: 0 5px;
+    
+        transition: all 0.5s ease 0s;
+    }
+    
+    .team-header{
+        color: var(--primary-color);
+        font-size: var(--fs-32);
+        font-weight: var(--fw-bold);
+    }
+    
+    .team-background-abs{
+        background-color: var(--primary-color);
+        position: absolute;
+        width: 200%;
+        top: calc(25%);
+        left: -50%;
+        height: 50%;
+        z-index: -1;
+    }
+    .testimonialDiv{
+        background-color: white;
+        width: 70%;
+        position: relative;
+        padding: var(--fs-16);
+        border: 4px solid var(--primary-color);
+        border-radius: 20px;
+        color: var(--primary-color);
+        margin: var(--fs-24) 0;
+        box-shadow: 0px 0px 10px 0px #000000;
+    }
+    .testimonialDiv-Icon{
+        font-size: var(--fs-48);
+    }
+    .testimonialDiv-Text{
+        font-size: var(--fs-12);
+        font-weight: var(--fw-semibold);
+        font-style: italic;
+        letter-spacing: 1px;
+    }
+    .testimonialDiv-Signer{
+        font-size: var(--fs-16);
+        margin: var(--fs-8);
+    }
+    .testimonialDiv-Signer i{
+        font-size: var(--fs-16);
+        margin: 0 var(--fs-8);
+    }
+}
+
+/* >= 992px */
+@media screen and (min-width: 992px) {
+    .team-mainDiv{
+        padding: var(--fs-32) 0;
+    }
+    
+    .carouselIcon{
+        font-size: var(--fs-32);
+        color: white;
+        margin: 0 5px;
+    
+        transition: all 0.5s ease 0s;
+    }
+    
+    .team-header{
+        color: var(--primary-color);
+        font-size: var(--fs-32);
+        font-weight: var(--fw-bold);
+    }
+    
+    .team-background-abs{
+        background-color: var(--primary-color);
+        position: absolute;
+        width: 200%;
+        top: calc(25%);
+        left: -50%;
+        height: 50%;
+        z-index: -1;
+    }
+    .testimonialDiv{
+        background-color: white;
+        width: 100%;
+        position: relative;
+        padding: var(--fs-16);
+        border: 4px solid var(--primary-color);
+        border-radius: 20px;
+        color: var(--primary-color);
+        margin: var(--fs-24) 0;
+        box-shadow: 0px 0px 10px 0px #000000;
+    }
+    .testimonialDiv-Icon{
+        font-size: var(--fs-48);
+    }
+    .testimonialDiv-Text{
+        font-size: var(--fs-16);
+        font-weight: var(--fw-semibold);
+        font-style: italic;
+        letter-spacing: 1px;
+    }
+    .testimonialDiv-Signer{
+        font-size: var(--fs-20);
+        margin: var(--fs-8);
+    }
+    .testimonialDiv-Signer i{
+        font-size: var(--fs-20);
+        margin: 0 var(--fs-8);
+    }
+}
+
+/* >= 1200px */
+@media screen and (min-width: 1200px) {
+    .team-mainDiv{
+        padding: var(--fs-32) 0;
+    }
+    
+    .carouselIcon{
+        font-size: var(--fs-32);
+        color: white;
+        margin: 0 5px;
+    
+        transition: all 0.5s ease 0s;
+    }
+    
+    .team-header{
+        color: var(--primary-color);
+        font-size: var(--fs-40);
+        font-weight: var(--fw-bold);
+    }
+    
+    .team-background-abs{
+        background-color: var(--primary-color);
+        position: absolute;
+        width: 200%;
+        top: calc(25%);
+        left: -50%;
+        height: 50%;
+        z-index: -1;
+    }
+    .testimonialDiv{
+        background-color: white;
+        width: 100%;
+        position: relative;
+        padding: var(--fs-16);
+        border: 4px solid var(--primary-color);
+        border-radius: 20px;
+        color: var(--primary-color);
+        margin: var(--fs-24) 0;
+        box-shadow: 0px 0px 10px 0px #000000;
+    }
+    .testimonialDiv-Icon{
+        font-size: var(--fs-48);
+    }
+    .testimonialDiv-Text{
+        font-size: var(--fs-16);
+        font-weight: var(--fw-semibold);
+        font-style: italic;
+        letter-spacing: 1px;
+    }
+    .testimonialDiv-Signer{
+        font-size: var(--fs-20);
+        margin: var(--fs-8);
+    }
+    .testimonialDiv-Signer i{
+        font-size: var(--fs-20);
+        margin: 0 var(--fs-8);
+    }
+}
+
+
+/* >= 1400px */
+@media screen and (min-width: 1400px) {
+    .team-mainDiv{
+        padding: var(--fs-32) 0;
+    }
+    
+    .carouselIcon{
+        font-size: var(--fs-32);
+        color: white;
+        margin: 0 5px;
+    
+        transition: all 0.5s ease 0s;
+    }
+    
+    .team-header{
+        color: var(--primary-color);
+        font-size: var(--fs-48);
+        font-weight: var(--fw-bold);
+    }
+    
+    .team-background-abs{
+        background-color: var(--primary-color);
+        position: absolute;
+        width: 200%;
+        top: calc(25%);
+        left: -50%;
+        height: 50%;
+        z-index: -1;
+    }
+    .testimonialDiv{
+        background-color: white;
+        width: 100%;
+        position: relative;
+        padding: var(--fs-16);
+        border: 4px solid var(--primary-color);
+        border-radius: 20px;
+        color: var(--primary-color);
+        margin: var(--fs-24) 0;
+        box-shadow: 0px 0px 10px 0px #000000;
+    }
+    .testimonialDiv-Icon{
+        font-size: var(--fs-48);
+    }
+    .testimonialDiv-Text{
+        font-size: var(--fs-16);
+        font-weight: var(--fw-semibold);
+        font-style: italic;
+        letter-spacing: 1px;
+    }
+    .testimonialDiv-Signer{
+        font-size: var(--fs-20);
+        margin: var(--fs-8);
+    }
+    .testimonialDiv-Signer i{
+        font-size: var(--fs-20);
+        margin: 0 var(--fs-8);
+    }
+}

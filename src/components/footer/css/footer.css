@@ -1,0 +1,50 @@
+.footer-mainDiv{
+    background-color: var(--primary-color);
+    color: white;
+    padding: var(--fs-20);
+}
+
+.footer-copyright{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-bold);
+    letter-spacing: 1px;
+}
+
+.footer-confidentials{
+    font-size: var(--fs-12);
+    letter-spacing: 0.5px;
+}
+
+.footer-socialMedia i{
+    font-size: var(--fs-24);
+    transition: all 0.5s ease 0s;
+}
+
+
+/* HOVER */
+.footer-socialMedia i:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    color: var(--third-color);
+}
+
+/* >= 400px */
+@media screen and (min-width: 400px) {}
+
+/* >= 576px */
+@media screen and (min-width: 576px) {}
+
+/* >= 760px */
+@media screen and (min-width: 760px) {}
+
+/* >= 1000px */
+@media screen and (min-width: 1000px) {}
+
+/* >= 1200px */
+@media screen and (min-width: 1200px) {}
+
+/* >= 1400px */
+@media screen and (min-width: 1400px) {}
+
+/* >= 1600px */
+@media screen and (min-width: 1600px) {}

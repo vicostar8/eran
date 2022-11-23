@@ -1,0 +1,249 @@
+/* RESET THE STYLESHEET */
+
+:root{
+  --ff-primary: 'Roboto', sans-serif;
+
+  --ff-body: var(--ff-primary);
+  --ff-heading: var(--ff-primary);
+
+  --fw-subregular: 300;
+  --fw-regular: 400;
+  --fw-semibold: 500;
+  --fw-bold: 700;
+
+  --primary-color: #003464;
+  --secondary-color: #004F97;
+  --third-color: #80c1ff;
+
+  /* COMPLEMENTARY COLORS */
+  --complementary-color: #643000;
+
+  /* ANALOGOUS COLORS */
+  --analogous-1: #000264;
+  --analogous-2: #006462;
+
+  /* TRIADIC COLORS */
+  --triadic-1: #640034;
+  --triadic-2: #346400;
+
+  /* TETRAEDIC COLORS */
+  --tetraedic-1: #620064;
+  --tetraedic-2: #643000;
+  --tetraedic-3: #026400;
+
+  /* 4px */
+  --fs-4: .25rem;  
+  /* 8px */
+  --fs-8: .5rem;  
+  /* 12px */
+  --fs-12: .75rem;  
+  /* 16px */
+  --fs-16: 1rem;
+  /* 20px */
+  --fs-20: 1.25rem;
+  /* 24px */
+  --fs-24: 1.5rem;
+  /* 32px */
+  --fs-32: 2rem;
+  /* 40px */
+  --fs-40: 2.5rem;
+  /* 48px */
+  --fs-48: 3rem;
+  /* 56px */
+  --fs-56: 3.5rem;
+
+}
+
+.pos-c{
+  display: flex;
+  flex-direction: column;
+}
+
+.pos-c-cc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pos-c-sc{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.pos-c-sec{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pos-c-sac{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pos-c-sbc{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pos-c-ec{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.pos-c-cs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.pos-r{
+  display: flex;
+  flex-direction: row;
+}
+
+.pos-r-sc{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.pos-r-cc{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pos-r-cs{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.pos-r-ec{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.pos-r-sac{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pos-r-sec{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pos-r-sbc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 48em){
+  :root{
+    --fs-nav: var(--fs-300);
+  }
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+*{
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+
+  /* background-image: url('./images/backgroundGeneral/Eran_Background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ORIGINAL WHEN STARTING A PROJECT */
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
