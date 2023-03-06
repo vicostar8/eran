@@ -1,0 +1,92 @@
+.translation-mainDiv{
+    color: var(--primary-color);
+}
+
+.translation-paragraph{
+    font-size: var(--fs-16);
+    margin: var(--fs-16) var(--fs-24);
+    /* line-height: var(--fs-32); */
+}
+
+.translation-subtitle{
+    font-size: var(--fs-24);
+    font-weight: var(--fw-bold);
+}
+
+.translationPage-image{
+    background-color: var(--primary-color);
+}
+
+.translationPage-header{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-bold);
+}
+
+.translationPage-text{
+    font-size: var(--fs-16);
+    /* line-height: var(--fs-32); */
+}
+
+.translation-Ul{
+    font-size: var(--fs-16);
+}
+
+/* >= 760px */
+@media screen and (min-width: 760px) {
+    .translation-mainDiv{
+        color: var(--primary-color);
+    }
+    .translation-paragraph{
+        font-size: var(--fs-20);
+        margin: var(--fs-16) var(--fs-24);
+        /* line-height: var(--fs-32); */
+    }
+    .translation-subtitle{
+        font-size: var(--fs-32);
+        font-weight: var(--fw-bold);
+    }
+    .translationPage-image{
+        background-color: var(--primary-color);
+    }
+    .translationPage-header{
+        font-size: var(--fs-24);
+        font-weight: var(--fw-bold);
+    }
+    .translationPage-text{
+        font-size: var(--fs-20);
+        /* line-height: var(--fs-32); */
+    }
+    .translation-Ul{
+        font-size: var(--fs-20);
+    }
+}
+
+/* >= 992px */
+@media screen and (min-width: 992px) {
+    .translation-mainDiv{
+        color: var(--primary-color);
+    }
+    .translation-paragraph{
+        font-size: var(--fs-20);
+        margin: var(--fs-16) var(--fs-24);
+        line-height: var(--fs-32);
+    }
+    .translation-subtitle{
+        font-size: var(--fs-32);
+        font-weight: var(--fw-bold);
+    }
+    .translationPage-image{
+        background-color: var(--primary-color);
+    }
+    .translationPage-header{
+        font-size: var(--fs-32);
+        font-weight: var(--fw-bold);
+    }
+    .translationPage-text{
+        font-size: var(--fs-20);
+        line-height: var(--fs-32);
+    }
+    .translation-Ul{
+        font-size: var(--fs-20);
+    }
+}

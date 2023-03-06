@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./css/mobileMenu.css";
 
 const MobileMenu = ({
@@ -22,9 +23,20 @@ const MobileMenu = ({
         <ul className={`mobileMenu-mainUl`}>
           {menuItems.map((mI, index) => (
             <li key={`${mI.text}-${index}`} className="mobileMenu-mainLi">
-              <a href="#" className="mobileMenu-mainLi-anchor">
+              {/* <a href="#" className="mobileMenu-mainLi-anchor">
                 {mI.text}
-              </a>
+              </a> */}
+              <Link
+                to={`${
+                  mI.text.toLowerCase() === "home"
+                    ? "/"
+                    : `${mI.text.toLowerCase()}`
+                }`}
+                className="mobileMenu-mainLi-anchor"
+                onClick={ocMobileMenu}
+              >
+                {mI.text}
+              </Link>
               {mI.hasSubMenu && (
                 <i
                   className="ms-2 mobileMenu-mainLi-icon fa-solid fa-arrow-right"
@@ -54,9 +66,16 @@ const MobileMenu = ({
                   key={`${smI.subMenuText}-${index}`}
                   className="mobileMenu-mainLi"
                 >
-                  <a href="#" className="mobileMenu-mainLi-anchor">
+                  {/* <a href="#" className="mobileMenu-mainLi-anchor">
                     {smI.subMenuText}
-                  </a>
+                  </a> */}
+                  <Link
+                    to={`${smI.subMenuText.split(" ").join("-").toLowerCase()}`}
+                    className="mobileMenu-mainLi-anchor"
+                    onClick={ocMobileMenu}
+                  >
+                    {smI.subMenuText}
+                  </Link>
                 </li>
               ))}
         </ul>

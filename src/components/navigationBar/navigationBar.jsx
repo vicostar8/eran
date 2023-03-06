@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import MobileMenu from "./mobileMenu";
 import { CSSTransition } from "react-transition-group";
+import { Link } from "react-router-dom";
 
 import "./css/navigationBar.css";
 
@@ -105,11 +106,9 @@ const NavigationBar = () => {
       />
 
       {/* MENIU DESKTOP */}
-      <img
-        src={logo}
-        alt="Eran Logo - Passion for learning"
-        className="navBar-Logo"
-      />
+      <Link to="/" className="navBar-Logo">
+        <img src={logo} alt="Eran Logo - Passion for learning" />
+      </Link>
       <i
         className="fa-solid fa-bars navBar-toggle-button"
         onClick={ocMobileMenu}
@@ -118,9 +117,19 @@ const NavigationBar = () => {
         <ul className="pos-r-sec navBar-links-mainUl">
           {menuItems.map((mI, index) => (
             <li key={mI.text} className="navBar-links-mainLi">
-              <a href="#" className="navBar-links-mainLi-anchor">
+              {/* <a href="#" className="navBar-links-mainLi-anchor">
                 {mI.text}
-              </a>
+              </a> */}
+              <Link
+                to={`${
+                  mI.text.toLowerCase() === "home"
+                    ? "/"
+                    : `${mI.text.toLowerCase()}`
+                }`}
+                className="navBar-links-mainLi-anchor"
+              >
+                {mI.text}
+              </Link>
               {mI.hasSubMenu && (
                 <>
                   <i
@@ -141,9 +150,18 @@ const NavigationBar = () => {
                           key={`${smI.text}-${index}`}
                           className="navBar-subMenuDiv-item my-2"
                         >
-                          <a href="#" className="navBar-subMenuDiv-item-anchor">
+                          {/* <a href="#" className="navBar-subMenuDiv-item-anchor">
                             {smI.subMenuText}
-                          </a>
+                          </a> */}
+                          <Link
+                            to={`${smI.subMenuText
+                              .split(" ")
+                              .join("-")
+                              .toLowerCase()}`}
+                            className="navBar-subMenuDiv-item-anchor"
+                          >
+                            {smI.subMenuText}
+                          </Link>
                         </div>
                       ))}
                     </div>

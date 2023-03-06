@@ -13,7 +13,8 @@
 
   --primary-color: #003464;
   --secondary-color: #004F97;
-  --third-color: #80c1ff;
+  --third-color: #005aad;
+  --fourth-color: #80c1ff;
 
   /* COMPLEMENTARY COLORS */
   --complementary-color: #643000;
@@ -31,6 +32,8 @@
   --tetraedic-2: #643000;
   --tetraedic-3: #026400;
 
+  /* 2px */
+  --fs-2: 0.125rem;  
   /* 4px */
   --fs-4: .25rem;  
   /* 8px */
