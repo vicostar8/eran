@@ -62,7 +62,7 @@ function App() {
     <div className="container-lg p-0 appDiv">
       <NavigationBar />
       <Routes>
-        <Route path="/" element={<HomePage nrOfSlides={nrOfSlides} />} />
+        <Route path="/" index element={<HomePage nrOfSlides={nrOfSlides} />} />
         <Route path="despre-noi" element={<h1>Despre noi</h1>} />
         <Route path="pagini-utile" element={<h1>Pagini utile</h1>} />
         <Route path="/contact" element={<Contact />} />
