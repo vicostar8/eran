@@ -66,6 +66,8 @@ function App() {
         <Route path="/despre-noi" element={<h1>Despre noi</h1>} />
         <Route path="/pagini-utile" element={<h1>Pagini utile</h1>} />
         <Route path="/contact" element={<Contact />} />
+        {/* TO BE DELETED */}
+        <Route path="/eran" element={<HomePage nrOfSlides={nrOfSlides} />} />
         <Route
           path="/traduceri"
           element={<TranslationPage screenWidth={dimensions.width} />}
