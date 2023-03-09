@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import HomePage from "./components/homePage/homePage";
 import NavigationBar from "./components/navigationBar/navigationBar";
@@ -62,16 +62,16 @@ function App() {
     <div className="container-lg p-0 appDiv">
       <NavigationBar />
       <Routes>
-        <Route path="/" index element={<HomePage nrOfSlides={nrOfSlides} />} />
-        <Route path="despre-noi" element={<h1>Despre noi</h1>} />
-        <Route path="pagini-utile" element={<h1>Pagini utile</h1>} />
+        <Route path="/" element={<HomePage nrOfSlides={nrOfSlides} />} />
+        <Route path="/despre-noi" element={<h1>Despre noi</h1>} />
+        <Route path="/pagini-utile" element={<h1>Pagini utile</h1>} />
         <Route path="/contact" element={<Contact />} />
         <Route
           path="/traduceri"
           element={<TranslationPage screenWidth={dimensions.width} />}
         />
         <Route path="/examene" element={<ExamsPage />} />
-        {/* <Route path="*" element={} /> */}
+        <Route path="*" element={<h1>404 NOT FOUND</h1>} />
       </Routes>
       <Footer />
     </div>
