@@ -67,12 +67,12 @@ function App() {
         <Route path="/pagini-utile" element={<h1>Pagini utile</h1>} />
         <Route path="/contact" element={<Contact />} />
         {/* TO BE DELETED */}
-        <Route path="/eran" element={<HomePage nrOfSlides={nrOfSlides} />} />
         <Route
           path="/traduceri"
           element={<TranslationPage screenWidth={dimensions.width} />}
         />
         <Route path="/examene" element={<ExamsPage />} />
+        <Route path="/eran" element={<HomePage nrOfSlides={nrOfSlides} />} />
         <Route path="*" element={<h1>404 NOT FOUND</h1>} />
       </Routes>
       <Footer />
