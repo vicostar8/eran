@@ -1,0 +1,155 @@
+/* MOBILE */
+
+.examProfilePage-mainDiv{
+}
+
+.examProfilePage-shortTitle{
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-64);
+    letter-spacing: var(--fs-4);
+    /* border-radius: var(--fs-64) 0 0 0; */
+}
+
+.examProfilePage-title{
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-24);
+    color: var(--primary-color);
+}
+
+.examProfilePage-description{
+    font-size: var(--fs-16);
+    color: var(--primary-color);
+    line-height: var(--fs-32);
+}
+
+.examProfilePage-linkText{
+    font-size: var(--fs-16);
+}
+
+.examProfilePage-links{
+    text-decoration: none;
+    margin: 0 var(--fs-8);
+    color: var(--primary-color);
+}
+.examProfilePage-links:hover{
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+.examProfilePage-benefits{
+    color: var(--primary-color);
+    line-height: var(--fs-32);
+}
+
+.examProfilePage-contact{
+    background-color: var(--primary-color);
+    color: white;
+    font-size: var(--fs-20);
+    /* border-radius: 0 0 var(--fs-64) 0; */
+}
+
+.examProfilePage-contact-button{
+    background-color: white;
+    color: var(--primary-color);
+    font-size: var(--fs-20);
+    font-weight: var(--fw-bold);
+    padding: var(--fs-8) var(--fs-16);
+    border-radius: var(--fs-8);
+    border: 2px solid var(--primary-color);
+    letter-spacing: 1px;
+
+    transition: all 0.5s ease 0s;
+    box-shadow: 0px 0px 0px 0px white;
+}
+
+.examProfilePage-contact-button:hover{
+    transform: translateX(10px) translateY(-10px);
+    background-color: var(--primary-color);
+    color: white;
+    border: 2px solid white;
+    box-shadow: -10px 10px 0px 0px white;
+}
+
+/* TABLET */
+
+@media screen and (min-width: 768px){
+ 
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 992px){
+    .examProfilePage-mainDiv{
+    }
+    
+    .examProfilePage-shortTitle{
+        background-color: var(--primary-color);
+        color: white;
+        font-weight: var(--fw-bold);
+        font-size: var(--fs-64);
+        letter-spacing: var(--fs-4);
+        /* border-radius: var(--fs-64) 0 0 0; */
+    }
+    
+    .examProfilePage-title{
+        font-weight: var(--fw-bold);
+        font-size: var(--fs-24);
+        color: var(--primary-color);
+    }
+    
+    .examProfilePage-description{
+        font-size: var(--fs-16);
+        color: var(--primary-color);
+        line-height: var(--fs-24);
+    }
+    
+    .examProfilePage-linkText{
+        font-size: var(--fs-16);
+    }
+    
+    .examProfilePage-links{
+        text-decoration: none;
+        margin: 0 var(--fs-8);
+        color: var(--primary-color);
+    }
+    .examProfilePage-links:hover{
+        text-decoration: underline;
+        color: var(--primary-color);
+    }
+    
+    .examProfilePage-benefits{
+        color: var(--primary-color);
+        line-height: var(--fs-32);
+    }
+    
+    .examProfilePage-contact{
+        background-color: var(--primary-color);
+        color: white;
+        font-size: var(--fs-20);
+        /* border-radius: 0 0 var(--fs-64) 0; */
+    }
+    
+    .examProfilePage-contact-button{
+        background-color: white;
+        color: var(--primary-color);
+        font-size: var(--fs-20);
+        font-weight: var(--fw-bold);
+        padding: var(--fs-8) var(--fs-16);
+        border-radius: var(--fs-8);
+        border: 2px solid var(--primary-color);
+        letter-spacing: 1px;
+    
+        transition: all 0.5s ease 0s;
+        box-shadow: 0px 0px 0px 0px white;
+    }
+    
+    .examProfilePage-contact-button:hover{
+        transform: translateX(10px) translateY(-10px);
+        background-color: var(--primary-color);
+        color: white;
+        border: 2px solid white;
+        box-shadow: -10px 10px 0px 0px white;
+    }
+}
