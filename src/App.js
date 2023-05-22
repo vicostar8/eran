@@ -8,6 +8,7 @@ import Contact from "./components/contact/contact";
 import TranslationPage from "./components/translationPage/translationPage";
 import ExamsPage from "./components/examsPage/examsPage";
 import ExamProfilePage from "./components/examsPage/examProfilePage";
+import CoursesMainPage from "./components/courses/coursesMainPage";
 
 import "./App.css";
 
@@ -66,7 +67,7 @@ function App() {
         <Route path="/" element={<HomePage nrOfSlides={nrOfSlides} />} />
         <Route path="/despre-noi" element={<h1>Despre noi</h1>} />
         <Route path="/pagini-utile" element={<h1>Pagini utile</h1>} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/cursuri" element={<CoursesMainPage />} />
         <Route
           path="/traduceri"
           element={<TranslationPage screenWidth={dimensions.width} />}
@@ -75,7 +76,7 @@ function App() {
           <Route index element={<ExamsPage />} />
           <Route path=":courseShortTitle" element={<ExamProfilePage />} />
         </Route>
-
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<h1>404 NOT FOUND</h1>} />
       </Routes>
       <Footer />
