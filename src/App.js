@@ -9,6 +9,9 @@ import TranslationPage from "./components/translationPage/translationPage";
 import ExamsPage from "./components/examsPage/examsPage";
 import ExamProfilePage from "./components/examsPage/examProfilePage";
 import CoursesMainPage from "./components/courses/coursesMainPage";
+import CoursePage from "./components/courses/coursePage";
+import ProjectsPage from "./components/projectsPage/projectsPage";
+import UsefulPagesPage from "./components/usefulPagesPage/usefulPagesPage";
 
 import "./App.css";
 
@@ -66,8 +69,13 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage nrOfSlides={nrOfSlides} />} />
         <Route path="/despre-noi" element={<h1>Despre noi</h1>} />
-        <Route path="/pagini-utile" element={<h1>Pagini utile</h1>} />
-        <Route path="/cursuri" element={<CoursesMainPage />} />
+        <Route path="/pagini-utile" element={<UsefulPagesPage />} />
+        {/* <Route path="/cursuri" element={<CoursesMainPage />} /> */}
+        <Route path="/cursuri">
+          <Route index element={<CoursesMainPage />} />
+          <Route path=":course" element={<CoursePage />} />
+        </Route>
+        <Route path="/proiecte" element={<ProjectsPage />} />
         <Route
           path="/traduceri"
           element={<TranslationPage screenWidth={dimensions.width} />}

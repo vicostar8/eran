@@ -31,6 +31,17 @@
     font-size: var(--fs-16);
 }
 
+.translationPage-link{
+    text-decoration: underline;
+    color: var(--primary-color);
+    font-weight: var(--fw-bold);
+}
+
+.translationPage-link:hover{
+    color: #db474c;
+}
+
+
 /* >= 760px */
 @media screen and (min-width: 760px) {
     .translation-mainDiv{

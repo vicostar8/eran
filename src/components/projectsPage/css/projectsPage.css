@@ -1,0 +1,138 @@
+.projectsPage-main{
+
+}
+
+
+/* COL-1 */
+.projectsPage-firstCol-text{
+    color: #db474c;
+    font-weight: var(--fw-bold);
+}
+
+.projectsPage-firstCol-1{}
+
+.projectsPage-firstCol-1 ul{
+    list-style: none;
+}
+
+.projectsPage-firstCol-1 li::before{
+    content: "\2022";
+    color: #db474c;
+    font-weight: bold;
+    display: inline-block;
+    width: var(--fs-16);
+    font-size: var(--fs-32);
+}
+
+
+.projectsPage-firstCol-1 li{
+    color: var(--primary-color);
+}
+
+.projectsPage-firstCol-1 span{
+    color: #db474c;
+    font-weight: var(--fw-bold);
+}
+
+.projectsPage-firstCol-2{}
+
+/* COL-2 */
+.projectsPage-secondCol{
+    color: var(--primary-color);
+}
+
+.projectsPage-secondCol-text{
+    color: #db474c;
+    font-weight: var(--fw-bold);
+}
+
+.projectsPage-secondCol-1{}
+
+.projectsPage-secondCol-3{
+    border: solid 2px var(--primary-color);
+}
+
+
+/* COL-3 */
+
+.projectsPage-thirdCol-title{
+    font-size: var(--fs-48);
+    font-weight: var(--fw-bold);
+}
+
+.projectsPage-thirdCol-title1{
+    color: #db474c;
+}
+
+.projectsPage-thirdCol-title2{
+    color: #1FA6B5;
+}
+
+.projectsPage-thirdCol-subTitle{
+    font-weight: var(--fw-bold);
+}
+
+.projectsPage-thirdCol-subTitle1{
+    font-size: var(--fs-24);
+    color: #db474c;
+}
+
+.projectsPage-thirdCol-subTitle2{
+    color: #1FA6B5;
+    letter-spacing: var(--fs-2);
+}
+
+.projectsPage-thirdCol-text{
+    background-color: var(--primary-color);
+    color: white;
+    word-spacing: var(--fs-4);
+}
+
+.projectsPage-thirdCol-text span{
+    font-weight: var(--fw-bold);
+}
+
+
+/* ---------------------- */
+/* ---- projectsPage2-----*/
+
+.projectsPage2{   
+    color: var(--primary-color);
+}
+
+.projectsPage2-img{
+
+}
+
+.projectsPage2-firstCol-text{
+    color: #db474c;
+    font-weight: var(--fw-bold);
+}
+
+.projectsPage2-firstCol ul{
+    list-style: none;
+}
+
+.projectsPage2-firstCol ul li{
+    margin: var(--fs-12) 0;
+}
+
+.projectsPage2-firstCol ul span{
+    color: #db474c;
+    font-weight: var(--fw-bold);
+}
+
+.projectsPage2-secondCol-text{
+    color: #db474c;
+    font-weight: var(--fw-bold);
+}
+
+.projectsPage2-thirdCol-text{
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-20);
+    font-style: italic;
+}
+
+.projectsPage2-thirdCol-name{
+    font-size: var(--fs-16);
+}

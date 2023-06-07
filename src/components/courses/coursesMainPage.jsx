@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 import "./css/coursesMainPage.css";
 
@@ -52,15 +53,13 @@ const courses = [
 
 const CoursesMainPage = () => {
   const flags = [english_Flag, french_Flag, german_Flag, italian_Flag];
+  const navigate = useNavigate();
 
   return (
     <div className="p-5 coursesMainPage-mainDiv">
       <div className="row m-0">
         {courses.map((course, idx) => (
-          <div
-            key={`${course.name}`}
-            className="col-4 p-4 coursesMainPage-courseBox"
-          >
+          <div className="col-md-6 col-lg-4 p-4 coursesMainPage-courseBox">
             {/* <div className="coursesMainPage-courseBoxBg p-4"> */}
             <div className="coursesMainPage-course">
               <div className="m-0 p-0">
@@ -69,7 +68,16 @@ const CoursesMainPage = () => {
               <p className="text-center my-2">{course.name}</p>
               <div className="pos-r-sbc p-3">
                 <div className="coursesMainPage-price">{course.price} lei</div>
-                <i class="fa-solid fa-circle-chevron-right coursesMainPage-goto"></i>
+                {/* <Link to={course.language.toLowerCase()} className=""> */}
+                <i
+                  className="fa-solid fa-circle-chevron-right coursesMainPage-goto"
+                  onClick={() =>
+                    navigate(`/cursuri/${course.language.toLowerCase()}`, {
+                      state: { ...course },
+                    })
+                  }
+                ></i>
+                {/* </Link> */}
               </div>
             </div>
             {/* </div> */}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import TranslationRow from "./translationRow";
 
 import "./css/translationPage.css";
@@ -110,7 +111,9 @@ const TranslationPage = ({ screenWidth }) => {
       />
       <p className="text-center my-4 translationPage-text">
         Pentru a primi o ofertă, te rugăm să ne contactezi accesând pagina de{" "}
-        <b>Contact</b>
+        <Link to="/contact" className="translationPage-link">
+          Contact
+        </Link>
       </p>
     </div>
   );
