@@ -1,0 +1,262 @@
+.aboutUs-top-mainDiv{}
+
+.aboutUs-top-firstRow{}
+
+.aboutUs-top-img{}
+
+.aboutUs-top-topRightPanel{position: relative;}
+    
+.aboutUs-top-title{
+    /* position: absolute;
+    top: 0;
+    left: -25%; */
+ 
+    color: var(--primary-color);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-40);
+    letter-spacing: var(--fs-12);
+}
+   
+.aboutUs-top-coverDiv1{/* height: 30%; */}
+
+.aboutUs-top-coverDiv2{/* height: 70%; */}
+    
+.aboutUs-top-text{
+    color: var(--primary-color);
+    letter-spacing: 1px;
+    word-spacing: var(--fs-2);
+    font-size: var(--fs-16);
+}
+
+.aboutUs-top-button{
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-20);
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: var(--fs-8);
+    padding: var(--fs-4) var(--fs-16);
+    border: 2px solid var(--primary-color);
+    letter-spacing: 1px;
+    
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 0px 0px 0px var(--primary-color);
+ }
+
+ .aboutUs-top-button:hover{
+    transform: translateX(10px) translateY(-10px);
+    background-color: white;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    box-shadow:  -10px 10px 0px 0px var(--primary-color);
+ }
+
+@media (min-width: 768px) and (max-width: 991px){
+    .aboutUs-top-mainDiv{}
+
+    .aboutUs-top-firstRow{}
+    
+    .aboutUs-top-img{}
+    
+    .aboutUs-top-topRightPanel{position: relative;}
+        
+    .aboutUs-top-title{
+        /* position: absolute;
+        top: 0;
+        left: -25%; */
+     
+        color: var(--primary-color);
+        font-weight: var(--fw-bold);
+        font-size: var(--fs-56);
+        letter-spacing: var(--fs-12);
+    }
+       
+    .aboutUs-top-coverDiv1{/* height: 30%; */}
+    
+    .aboutUs-top-coverDiv2{/* height: 70%; */}
+        
+    .aboutUs-top-text{
+        color: var(--primary-color);
+        letter-spacing: 1px;
+        word-spacing: var(--fs-2);
+        font-size: var(--fs-18);
+    }
+    
+    .aboutUs-top-button{
+        font-weight: var(--fw-bold);
+        font-size: var(--fs-24);
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: var(--fs-8);
+        padding: var(--fs-4) var(--fs-16);
+        border: 2px solid var(--primary-color);
+        letter-spacing: 1px;
+        
+        transition: all 0.3s ease 0s;
+        box-shadow: 0px 0px 0px 0px var(--primary-color);
+     }
+    
+     .aboutUs-top-button:hover{
+        transform: translateX(10px) translateY(-10px);
+        background-color: white;
+        color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+        box-shadow:  -10px 10px 0px 0px var(--primary-color);
+     }
+} 
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .aboutUs-top-topRightPanel{position: relative;}
+    
+    .aboutUs-top-title{
+        position: absolute;
+        top: -5%;
+        left: -10%;
+    
+        color: var(--primary-color);
+        font-weight: var(--fw-bold);
+        font-size: var(--fs-72);
+        letter-spacing: var(--fs-12);
+    }
+    
+    .aboutUs-top-coverDiv1{
+        height: 20%;
+    }
+
+    .aboutUs-top-coverDiv2{
+        height: 80%;
+    }
+    
+    .aboutUs-top-text{
+        color: var(--primary-color);
+        letter-spacing: 1px;
+        word-spacing: var(--fs-2);
+        font-size: var(--fs-16);
+    }
+
+    .aboutUs-top-button{
+        font-weight: var(--fw-bold);
+        font-size: var(--fs-16);
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: var(--fs-8);
+        padding: var(--fs-4) var(--fs-16);
+        border: 2px solid var(--primary-color);
+        letter-spacing: 1px;
+    
+        transition: all 0.3s ease 0s;
+        box-shadow: 0px 0px 0px 0px var(--primary-color);
+    }
+
+    .aboutUs-top-button:hover{
+        transform: translateX(10px) translateY(-10px);
+        background-color: white;
+        color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+        box-shadow:  -10px 10px 0px 0px var(--primary-color);
+    }
+} 
+
+@media (min-width: 1200px) and (max-width: 1399px){   
+    .aboutUs-top-topRightPanel{position: relative;}
+    
+    .aboutUs-top-title{
+        position: absolute;
+        top: 0;
+        left: -20%;
+    
+        color: var(--primary-color);
+        font-weight: var(--fw-bold);
+        font-size: var(--fs-104);
+        letter-spacing: var(--fs-12);
+    }
+    
+    .aboutUs-top-coverDiv1{
+        height: 30%;
+    }
+
+    .aboutUs-top-coverDiv2{
+        height: 70%;
+    }
+    
+    .aboutUs-top-text{
+        color: var(--primary-color);
+        letter-spacing: 1px;
+        word-spacing: var(--fs-2);
+        font-size: var(--fs-16);
+    }
+
+    .aboutUs-top-button{
+        font-weight: var(--fw-bold);
+        font-size: var(--fs-20);
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: var(--fs-8);
+        padding: var(--fs-4) var(--fs-16);
+        border: 2px solid var(--primary-color);
+        letter-spacing: 1px;
+    
+        transition: all 0.3s ease 0s;
+        box-shadow: 0px 0px 0px 0px var(--primary-color);
+    }
+
+    .aboutUs-top-button:hover{
+        transform: translateX(10px) translateY(-10px);
+        background-color: white;
+        color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+        box-shadow:  -10px 10px 0px 0px var(--primary-color);
+    }
+} 
+
+
+@media (min-width: 1400px){
+    .aboutUs-top-topRightPanel{position: relative;}
+    
+    .aboutUs-top-title{
+        position: absolute;
+        top: 0;
+        left: -20%;
+    
+        color: var(--primary-color);
+        font-weight: var(--fw-bold);
+        font-size: var(--fs-112);
+        letter-spacing: var(--fs-12);
+    }
+    
+    .aboutUs-top-coverDiv1{
+        height: 30%;
+    }
+
+    .aboutUs-top-coverDiv2{
+        height: 70%;
+    }
+    
+    .aboutUs-top-text{
+        color: var(--primary-color);
+        letter-spacing: 1px;
+        word-spacing: var(--fs-2);
+        font-size: var(--fs-18);
+    }
+
+    .aboutUs-top-button{
+        font-weight: var(--fw-bold);
+        font-size: var(--fs-24);
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: var(--fs-8);
+        padding: var(--fs-4) var(--fs-16);
+        border: 2px solid var(--primary-color);
+        letter-spacing: 1px;
+    
+        transition: all 0.3s ease 0s;
+        box-shadow: 0px 0px 0px 0px var(--primary-color);
+    }
+
+    .aboutUs-top-button:hover{
+        transform: translateX(10px) translateY(-10px);
+        background-color: white;
+        color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+        box-shadow:  -10px 10px 0px 0px var(--primary-color);
+    }
+}

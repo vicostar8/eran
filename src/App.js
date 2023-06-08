@@ -12,6 +12,7 @@ import CoursesMainPage from "./components/courses/coursesMainPage";
 import CoursePage from "./components/courses/coursePage";
 import ProjectsPage from "./components/projectsPage/projectsPage";
 import UsefulPagesPage from "./components/usefulPagesPage/usefulPagesPage";
+import AboutUsPage from "./components/aboutUsPage/aboutUsPage";
 
 import "./App.css";
 
@@ -68,8 +69,11 @@ function App() {
       <NavigationBar />
       <Routes>
         <Route path="/" element={<HomePage nrOfSlides={nrOfSlides} />} />
-        <Route path="/despre-noi" element={<h1>Despre noi</h1>} />
-        <Route path="/pagini-utile" element={<UsefulPagesPage />} />
+        <Route
+          path="/despre-noi"
+          element={<AboutUsPage screenWidth={dimensions.width} />}
+        />
+        <Route path="/alte-informatii" element={<UsefulPagesPage />} />
         {/* <Route path="/cursuri" element={<CoursesMainPage />} /> */}
         <Route path="/cursuri">
           <Route index element={<CoursesMainPage />} />

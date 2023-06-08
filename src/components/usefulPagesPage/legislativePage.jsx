@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const LegislativePage = () => {
   return (
-    <div className="row mx-0 mb-3">
+    <div className="row mx-0 mb-5">
       <h1 className="my-3 text-center">LEGISLAȚIE</h1>
       <div className="col-md-12 col-lg-4 p-3">
         <div className="h-100 usefulPages-legislative-card pos-c-sbc p-4">

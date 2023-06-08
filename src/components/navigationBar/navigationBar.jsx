@@ -13,7 +13,10 @@ const aaa = [
     hasSubMenu: true,
     subMenuItems: {
       isActive: false,
-      items: [{ subMenuText: "Despre noi" }, { subMenuText: "Pagini utile" }],
+      items: [
+        { subMenuText: "Despre noi" },
+        { subMenuText: "Alte informatii" },
+      ],
     },
   },
   {
