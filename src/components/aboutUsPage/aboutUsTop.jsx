@@ -22,7 +22,7 @@ const AboutUsTop = ({ screenWidth }) => {
       <div className="col-lg-6 pos-c-cc aboutUs-top-topRightPanel">
         <p className="aboutUs-top-title m-0 p-0">Despre noi</p>
         <div className="aboutUs-top-coverDiv1"></div>
-        <div className="aboutUs-top-coverDiv2 pos-c-sbc">
+        <div className="aboutUs-top-coverDiv2 pos-c-cc">
           <p className="aboutUs-top-text">
             ERAN a luat fiinta in mai 2006, prima sa actiune fiind crearea
             primului centru de examinare ECL din Judetul Brasov. Ulterior, ERAN
@@ -37,9 +37,11 @@ const AboutUsTop = ({ screenWidth }) => {
             si Cambridge. Traducerile reprezinta si ele o componenta importanta
             a Centrului, acoperind peste 28 de limbi, si varii domenii.
           </p>
-          <button type="button" className="aboutUs-top-button">
-            Contact
-          </button>
+          <Link to="/contact">
+            <button type="button" className="aboutUs-top-button">
+              Contact
+            </button>
+          </Link>
         </div>
       </div>
     </div>
